@@ -151,7 +151,7 @@ class Bot(object):
         max_blocks_per_day=random.randint(50, 100),
         max_unblocks_per_day=random.randint(50, 100),
         max_likes_to_like=random.randint(50, 100),
-        min_likes_to_like=random.randint(50, 100),
+        min_likes_to_like=random.randint(25, 50),
         max_messages_per_day=random.randint(50, 100),
         filter_users=False,
         filter_private_users=False,
